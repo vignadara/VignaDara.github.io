@@ -30,7 +30,7 @@ describe('Your HTML Page', function() {
   });
 
   it('should have content in the h1 element @h1', function() {
-    assert.equal(window.$('h1').text(), 'Hello, Code School!', "Make sure to set the content of your `h1` element to 'Hello, Code School!'.");
+    assert.equal(window.$('h1').text(), 'Welcome!', "Make sure to set the content of your `h1` element to 'Welcome!'.");
   });
 
   it('should have a ul @ul', function() {
